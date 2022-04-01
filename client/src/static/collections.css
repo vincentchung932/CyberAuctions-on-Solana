@@ -1,0 +1,33 @@
+.title{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.collection_img{
+    width: 110px;
+    height: 120px;
+    
+}
+
+
+.textContainer{
+    margin: 8px;
+    margin-top: 14px;
+}
+
+.IconButton_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top_row{
+    display: flex;
+    justify-content: space-between;
+}
+.sort_form{
+    margin:10px;
+    width: 200px;
+}

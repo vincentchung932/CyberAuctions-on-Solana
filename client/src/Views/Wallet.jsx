@@ -69,10 +69,12 @@ const Wallet = () => {
 
 
   let APIKeyID = defaultClient.authentications['APIKeyID'];
-  APIKeyID.apiKey = 'YOURAPIKEYHERE';
-  
+  // APIKeyID.apiKey = 'CJy6DEJiWKmF6po';
+  APIKeyID.apiKey = 'jvp2KbkRwG2e1bB';
+
   let APISecretKey = defaultClient.authentications['APISecretKey'];
-  APISecretKey.apiKey = 'YOURAPIKEYHERE';
+  // APISecretKey.apiKey = 'Ub6f34XKDEirf7o';
+  APISecretKey.apiKey = 'RmLevmd7FYW3GVk';
   
   let apiInstance = new theblockchainapi.SolanaWalletApi();
   let network = 'mainnet-beta'; // String | The network ID (devnet, mainnet-beta)
@@ -169,7 +171,7 @@ const Wallet = () => {
         </h2>
         <div style={{backgroundColor:"lightgray",width:"200px",display:"flex",height:"50px",lineHeight:"50px",borderRadius:"10px",marginLeft:"20px", justifyContent:'space-around'}}>
                 <img src={require('../img/Solana_logo.png')} alt="solana:" style={{height:"25px",margin:"12px 5px 0px 5px"}}/>
-                {loaded?<h3 style={{fontSize:"20px",margin:"0px"}}>{token?token.toFixed(3):0} SOL</h3>:<></>}
+                {loaded?<h3 style={{fontSize:"20px",margin:"0px"}}>{token?token.toFixed(4):0} SOL</h3>:<></>}
         </div>
     
         </div>

@@ -8,9 +8,11 @@ import Following from './Views/Following';
 import NFTCollections from './Views/Collections';
 import Copyright from './Views/Copyright';
 import Wallet from './Views/Wallet';
+import { useEffect } from 'react';
 
 
 function App() {
+  
   return (
     // <ThemeProvider theme={theme}>
 

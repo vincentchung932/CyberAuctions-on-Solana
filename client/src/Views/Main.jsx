@@ -85,7 +85,7 @@ const Main = () => {
           </h2>
           <div style={{backgroundColor:"lightgray",width:"200px",display:"flex",height:"50px",lineHeight:"50px",borderRadius:"10px",marginLeft:"20px", justifyContent:'space-around'}}>
                   <img src={require('../img/Solana_logo.png')} alt="solana:" style={{height:"25px",margin:"12px 5px 0px 5px"}}/>
-                  {loaded?<h3 style={{fontSize:"20px",margin:"0px"}}>{token?token.toFixed(3):0} SOL</h3>:<></>}
+                  {loaded?<h3 style={{fontSize:"20px",margin:"0px"}}>{token?token.toFixed(4):0} SOL</h3>:<></>}
           </div>
         </>:<div>
           <h2 style={{ color: "white", margin: "5px 0px 0px 20px" }}>

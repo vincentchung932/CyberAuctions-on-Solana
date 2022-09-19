@@ -69,12 +69,11 @@ const Wallet = () => {
 
 
   let APIKeyID = defaultClient.authentications['APIKeyID'];
-  // APIKeyID.apiKey = 'CJy6DEJiWKmF6po';
-  APIKeyID.apiKey = 'jvp2KbkRwG2e1bB';
+  APIKeyID.apiKey = "YOUR API KEY";
 
   let APISecretKey = defaultClient.authentications['APISecretKey'];
-  // APISecretKey.apiKey = 'Ub6f34XKDEirf7o';
-  APISecretKey.apiKey = 'RmLevmd7FYW3GVk';
+  APISecretKey.apiKey = "YOUR SECRET KEY";
+
   
   let apiInstance = new theblockchainapi.SolanaWalletApi();
   let network = 'mainnet-beta'; // String | The network ID (devnet, mainnet-beta)

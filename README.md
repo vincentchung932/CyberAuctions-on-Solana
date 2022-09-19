@@ -1,7 +1,6 @@
 # Cyber Actions Project
 
 ## About
-#
 Cyber Actions is a NFT dashboard on Solana chain which a user can follow the NFTs they like and add it on the dashboard. whenever the NFT is market, Cyber Actions will notify the user. User can link their Solana wallet and place their bid. 
 
 
@@ -16,7 +15,6 @@ Cyber Actions is a NFT dashboard on Solana chain which a user can follow the NFT
 
 
 ## Built with
-#
 The project is built in React with MongoDB. Back end is built by using Express framework.
 
 
@@ -28,7 +26,6 @@ The project is built in React with MongoDB. Back end is built by using Express f
 * [Material-UI](https://github.com/mui/material-ui)
 
 ## How to use
-#
 After installing node, clone this repo:
 
 ```
@@ -65,5 +62,4 @@ npm start
 ```
 
 ## Contact Me
-#
 If you have any question or problem running this project just contact me: [zhongqianxinqqq@gmail.com](mailto:zhongqianxinqqq@gmail.com)

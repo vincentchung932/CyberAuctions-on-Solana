@@ -1,4 +1,4 @@
-# Cyber Actions Project
+# Cyber Actions Project on Solana
 
 ## About
 Cyber Actions is a NFT dashboard on Solana blockchain which a user can follow the NFTs they like and add it on the dashboard. whenever the NFT is market, Cyber Actions will notify the user. User can link their Solana wallet and place their bid. 

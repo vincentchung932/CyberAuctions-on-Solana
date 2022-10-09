@@ -1,7 +1,7 @@
-# Cyber Actions Project on Solana
+# Cyber Auctions Project on Solana
 
 ## About
-Cyber Actions is a NFT dashboard on Solana blockchain which a user can follow the NFTs they like and add it on the dashboard. whenever the NFT is market, Cyber Actions will notify the user. User can link their Solana wallet and place their bid. The project is built in React as front-end and Node.js as back-end and a MongoDB.
+Cyber Auctions is a NFT dashboard on Solana blockchain which a user can follow the NFTs they like and add it on the dashboard. whenever the NFT is market, Cyber Auctions will notify the user. User can link their Solana wallet and place their bid. The project is built in React as front-end and Node.js as back-end and a MongoDB.
 
 
 ![index_page_shot](./photo/index_screen_shot.JPG)
@@ -27,7 +27,7 @@ Cyber Actions is a NFT dashboard on Solana blockchain which a user can follow th
 After installing node, clone this repo:
 
 ```
-git clone https://github.com/vincentchung932/CyberActions.git
+git clone https://github.com/vincentchung932/CyberAuctions.git
 ````
 
 Then install dependencies in server folder
